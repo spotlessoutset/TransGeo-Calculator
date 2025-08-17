@@ -87,7 +87,7 @@ g++ TransGeo_Calculator.cpp -o transgeo
 
 ### 🔄 Persamaan Garis
 
-* [x] Translasi
+* [ ] Translasi
 * [ ] Refleksi (dalam pengembangan)
 * [ ] Rotasi (dalam pengembangan)
 * [ ] Dilatasi (dalam pengembangan)
@@ -108,6 +108,10 @@ g++ TransGeo_Calculator.cpp -o transgeo
 
 * Program masih berbasis **terminal** tanpa visualisasi grafik.
 * Untuk pengembangan lebih lanjut, fitur **visualisasi grafik** dan **transformasi persamaan garis (refleksi, rotasi, dilatasi)** akan menjadi fokus utama.
+---
+## Next Features
+* Fitur **jumlah masukan data** : User dapat menambahkan banyak data dengan satu fungsi transformasi
+* Fitur **Keluaran data**: semua data yang diinput dapat dikeuarkan menjadi file
 
 ---
 
