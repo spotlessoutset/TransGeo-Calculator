@@ -1,7 +1,7 @@
-# TransGeo-Calculator
+# TransGeo Calculator
 
 Kalkulator **Transformasi Geometri** berbasis **C++ CLI (Command Line Interface)**.
-Aplikasi ini dibuat sebagai tugas Matematika Lanjut untuk membantu menghitung berbagai operasi transformasi geometri sederhana pada titik maupun garis.
+Aplikasi ini dibuat untuk membantu menghitung operasi transformasi geometri sederhana pada **titik** maupun **persamaan garis**.
 
 ---
 
@@ -30,8 +30,8 @@ Aplikasi ini dibuat sebagai tugas Matematika Lanjut untuk membantu menghitung be
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/username/kalkulator-transgeo.git
-cd kalkulator-transgeo
+git clone https://github.com/spotlessoutset/TransGeo-Calculator.git
+cd TransGeo-Calculator
 ```
 
 ### 2. Compile program
@@ -39,7 +39,7 @@ cd kalkulator-transgeo
 Gunakan compiler C++ (contoh: `g++`):
 
 ```bash
-g++ main.cpp -o transgeo
+g++ TransGeo_Calculator.cpp -o transgeo
 ```
 
 ### 3. Jalankan aplikasi
@@ -78,8 +78,19 @@ g++ main.cpp -o transgeo
 
 ## 🚧 Status Pengembangan
 
-* [x] Transformasi **titik** (translasi, refleksi, rotasi, dilatasi)
-* [ ] Transformasi **persamaan garis (refleksi, rotasi, dilatasi)** → *masih dalam tahap pengembangan*
+### ✅ Titik
+
+* [x] Translasi
+* [x] Refleksi (sumbu-X, sumbu-Y, garis y=x, y=-x, x=k, y=k)
+* [x] Rotasi (90° CCW, 180°, 90° CW)
+* [x] Dilatasi (skala terhadap pusat tertentu)
+
+### 🔄 Persamaan Garis
+
+* [x] Translasi
+* [ ] Refleksi (dalam pengembangan)
+* [ ] Rotasi (dalam pengembangan)
+* [ ] Dilatasi (dalam pengembangan)
 
 ---
 
@@ -96,10 +107,10 @@ g++ main.cpp -o transgeo
 ## 📝 Catatan
 
 * Program masih berbasis **terminal** tanpa visualisasi grafik.
-* Untuk pengembangan lebih lanjut, fitur **visualisasi grafik** dan **transformasi persamaan garis** akan menjadi fokus pengembangan berikutnya.
+* Untuk pengembangan lebih lanjut, fitur **visualisasi grafik** dan **transformasi persamaan garis (refleksi, rotasi, dilatasi)** akan menjadi fokus utama.
 
 ---
 
-⚡ Selamat mencoba **Kalkulator Transgeo**!
+⚡ Selamat mencoba **TransGeo Calculator**!
 
 ---
