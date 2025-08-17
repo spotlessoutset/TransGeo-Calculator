@@ -1,120 +1,73 @@
 # TransGeo Calculator
 
-Kalkulator **Transformasi Geometri** berbasis **C++ CLI (Command Line Interface)**.
-Aplikasi ini dibuat untuk membantu menghitung operasi transformasi geometri sederhana pada **titik** maupun **persamaan garis**.
+A simple **C++ CLI (Command Line Interface)** program for basic **geometric transformations**.
+This tool helps calculate transformations of **points** and **lines** in 2D geometry.
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-* **Translasi (pergeseran titik/garis)**
-* **Refleksi (pencerminan titik)**
+* **Point Transformations**
 
-  * Terhadap sumbu-X
-  * Terhadap sumbu-Y
-  * Terhadap garis y = x
-  * Terhadap garis y = -x
-  * Terhadap garis x = k
-  * Terhadap garis y = k
-* **Rotasi (perputaran titik)**
+  * [x] Translation
+  * [x] Reflection (X-axis, Y-axis, Y=X, Y=-X, X=k, Y=k)
+  * [x] Rotation (90° CCW, 180°, 90° CW)
+  * [x] Dilation (scaling with respect to a center)
 
-  * 90° berlawanan arah jarum jam
-  * 180°
-  * 90° searah jarum jam
-* **Dilatasi (perkalian skala terhadap titik pusat tertentu)**
+* **Line Transformations (ax + by + c = 0)**
+
+  * [ ] Translation
+  * [ ] Reflection *(in progress)*
+  * [ ] Rotation *(in progress)*
+  * [ ] Dilation *(in progress)*
 
 ---
 
-## 📦 Cara Instalasi & Menjalankan
+## 🚀 Getting Started
 
-### 1. Clone repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/spotlessoutset/TransGeo-Calculator.git
 cd TransGeo-Calculator
 ```
 
-### 2. Compile program
+### Compile & Run
 
-Gunakan compiler C++ (contoh: `g++`):
+Linux / macOS:
 
 ```bash
 g++ TransGeo_Calculator.cpp -o transgeo
-```
-
-### 3. Jalankan aplikasi
-
-```bash
 ./transgeo
 ```
 
----
+Windows (MinGW/MSVC):
 
-## 📖 Cara Penggunaan
-
-1. Jalankan program.
-2. Pilih menu utama:
-
-   * **Mulai mentransformasi** → masuk ke menu operasi transformasi.
-   * **Tentang pengembang** → melihat informasi pembuat aplikasi.
-   * **Keluar** → menutup aplikasi.
-3. Pilih jenis geometri:
-
-   * **Titik**
-   * **Garis** *(fitur transformasi garis masih terbatas)*
-4. Pilih jenis transformasi: translasi, refleksi, rotasi, atau dilatasi.
-5. Masukkan nilai koordinat yang diminta.
-6. Program akan menampilkan hasil koordinat bayangan.
+```bash
+g++ TransGeo_Calculator.cpp -o transgeo.exe
+transgeo.exe
+```
 
 ---
 
-## 🛠️ Teknologi
+## 📌 Roadmap
 
-* **Bahasa:** C++
-* **Compiler:** g++ (GCC), MinGW, atau MSVC
-* **Platform:** Windows, Linux, macOS (CLI)
-
----
-
-## 🚧 Status Pengembangan
-
-### ✅ Titik
-
-* [x] Translasi
-* [x] Refleksi (sumbu-X, sumbu-Y, garis y=x, y=-x, x=k, y=k)
-* [x] Rotasi (90° CCW, 180°, 90° CW)
-* [x] Dilatasi (skala terhadap pusat tertentu)
-
-### 🔄 Persamaan Garis
-
-* [ ] Translasi
-* [ ] Refleksi (dalam pengembangan)
-* [ ] Rotasi (dalam pengembangan)
-* [ ] Dilatasi (dalam pengembangan)
+* [ ] Complete line transformation algorithms
+* [ ] Release English version
+* [ ] Develop a web-based version with UI
+* [ ] Add multi-input & file output support
 
 ---
 
-## 👨‍💻 Tentang Pengembang
+## 📝 Notes
 
-* Nama: **Ayyash Syauqi Syahadah**
-* Kelas: XI-3
-* Hobi: Voli, Programming
-* Instagram: [@ayyasyauqi](https://instagram.com/ayyasyauqi)
-* Email: [ayyash.syauqi@smancmbbs.sch.id](mailto:ayyash.syauqi@smancmbbs.sch.id)
+* The program is **terminal-based** (no graphics).
+* Future development will focus on **English version, visualization** and **line transformations**.
 
 ---
 
-## 📝 Catatan
+## 📄 License
 
-* Program masih berbasis **terminal** tanpa visualisasi grafik.
-* Untuk pengembangan lebih lanjut, fitur **visualisasi grafik** dan **transformasi persamaan garis (refleksi, rotasi, dilatasi)** akan menjadi fokus utama.
----
-## Next Features
-* Fitur **jumlah masukan data** : User dapat menambahkan banyak data dengan satu fungsi transformasi
-* Fitur **Keluaran data**: semua data yang diinput dapat dikeuarkan menjadi file
-
----
-
-⚡ Selamat mencoba **TransGeo Calculator**!
+This project is licensed under the **GNU General Public License v3.0**.
 
 ---
