@@ -8,7 +8,7 @@ Aplikasi ini dibuat sebagai tugas Matematika Lanjut untuk membantu menghitung be
 ## ✨ Fitur
 
 * **Translasi (pergeseran titik/garis)**
-* **Refleksi (pencerminan)**
+* **Refleksi (pencerminan titik)**
 
   * Terhadap sumbu-X
   * Terhadap sumbu-Y
@@ -61,7 +61,7 @@ g++ main.cpp -o transgeo
 3. Pilih jenis geometri:
 
    * **Titik**
-   * **Garis** (saat ini masih menggunakan logika titik)
+   * **Garis** *(fitur transformasi garis masih terbatas)*
 4. Pilih jenis transformasi: translasi, refleksi, rotasi, atau dilatasi.
 5. Masukkan nilai koordinat yang diminta.
 6. Program akan menampilkan hasil koordinat bayangan.
@@ -73,6 +73,13 @@ g++ main.cpp -o transgeo
 * **Bahasa:** C++
 * **Compiler:** g++ (GCC), MinGW, atau MSVC
 * **Platform:** Windows, Linux, macOS (CLI)
+
+---
+
+## 🚧 Status Pengembangan
+
+* [x] Transformasi **titik** (translasi, refleksi, rotasi, dilatasi)
+* [ ] Transformasi **persamaan garis (refleksi, rotasi, dilatasi)** → *masih dalam tahap pengembangan*
 
 ---
 
@@ -89,12 +96,13 @@ g++ main.cpp -o transgeo
 ## 📝 Catatan
 
 * Program masih berbasis **terminal** tanpa visualisasi grafik.
-* Untuk pengembangan lebih lanjut, fitur visualisasi grafik dapat ditambahkan agar transformasi geometri lebih mudah dipahami secara visual.
+* Untuk pengembangan lebih lanjut, fitur **visualisasi grafik** dan **transformasi persamaan garis** akan menjadi fokus pengembangan berikutnya.
 
 ---
 
 ⚡ Selamat mencoba **Kalkulator Transgeo**!
 
 ---
+
 
 Mau saya bikinkan juga **versi README yang lebih ditujukan untuk open-source di GitHub** (misalnya dengan bagian *Contributing*, *License*, dan *Future Roadmap*) biar orang lain bisa ikut gabung ngembangin?
