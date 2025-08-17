@@ -103,6 +103,3 @@ g++ main.cpp -o transgeo
 ⚡ Selamat mencoba **Kalkulator Transgeo**!
 
 ---
-
-
-Mau saya bikinkan juga **versi README yang lebih ditujukan untuk open-source di GitHub** (misalnya dengan bagian *Contributing*, *License*, dan *Future Roadmap*) biar orang lain bisa ikut gabung ngembangin?
