@@ -16,7 +16,7 @@ This tool helps calculate transformations of **points** and **lines** in 2D geom
 
 * **Line Transformations (ax + by + c = 0)**
 
-  * [ ] Translation
+  * [ ] Translation *(in progress)*
   * [ ] Reflection *(in progress)*
   * [ ] Rotation *(in progress)*
   * [ ] Dilation *(in progress)*
@@ -37,16 +37,30 @@ cd TransGeo-Calculator
 Linux / macOS:
 
 ```bash
-g++ TransGeo_Calculator.cpp -o transgeo
-./transgeo
+g++ TransGeo_Calculator.cpp -o TransGeo_Calculator
+./TransGeo_Calculator
 ```
 
 Windows (MinGW/MSVC):
 
 ```bash
-g++ TransGeo_Calculator.cpp -o transgeo.exe
-transgeo.exe
+g++ TransGeo_Calculator.cpp -o TransGeo_Calculator.exe
+TransGeo_Calculator.exe
 ```
+
+---
+## 📖 Usage
+1. Run the program.
+2. Choose from the main menu:
+* Start Transformation → access transformation operations.
+* About Developer → view app creator info.
+* Exit → quit the app.
+4. Select geometry type:
+* Point
+* Line (line transformations are under progress)
+5. Select transformation type: translation, reflection, rotation, or dilation.
+6. Input the required coordinates.
+7. The program will display the transformed coordinates.
 
 ---
 
@@ -63,6 +77,13 @@ transgeo.exe
 
 * The program is **terminal-based** (no graphics).
 * Future development will focus on **English version, visualization** and **line transformations**.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository, open issues, and submit pull requests to help improve this project.
 
 ---
 
